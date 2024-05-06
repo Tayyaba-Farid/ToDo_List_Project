@@ -14,7 +14,7 @@ while (condition) {
       name: "addMore",
       message: "are you sure you want to add more in Todos list?",
       type: "confirm",
-      default: "false",
+      default: false,
     },
   ]);
   todos.push(addinList.todo);
